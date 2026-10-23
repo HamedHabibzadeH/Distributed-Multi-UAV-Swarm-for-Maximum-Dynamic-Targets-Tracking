@@ -1,0 +1,14 @@
+env:
+  width: 800
+  height: 600
+  max_steps: 500
+
+uav:
+  speed: 3.0
+  yaw_rate_max: 1.5   # رادیان بر ثانیه
+  cam_fov: 60         # زاویه دید دوربین پهپاد اول (درجه)
+  cam_range: 250      # برد دید دوربین
+
+target:
+  radius: 10
+  color: [0, 0, 255]  # رنگ قرمز (BGR برای OpenCV)
